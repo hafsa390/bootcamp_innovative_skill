@@ -1,0 +1,13 @@
+Which open-source datasets (COCO, ImageNet, OpenImages, etc.) are best
+suited for object classification tasks?
+
+Ans: ImageNet is the best for object classification task. MNIST, CIFAR-10 and COCO are also good. 
+
+How would you handle class imbalance in an open-source dataset?
+
+Ans: Oversampling the minority class and undersampling the majority class are two common ways to handle class imbalance. Besides, there is augmentation strategies which can be applied on the minority class for balancing. 
+
+Which pretrained models (ResNet, MobileNet, EfficientNet) are best for
+object classification?
+
+Ans: In my opinion, almost all the pretrained models should give good outcomes in object classification tasks. Based on the complexity or limitation of samples in the target dataset, the performance of these pretrained models might vary or degrade.  
