@@ -3,7 +3,7 @@
 
 def calculate(num1, num2, op):
 
-    # Dictionary of operators and its functions
+    Dictionary of operators and its functions
     ops = {
         '+' : lambda x,y: x + y,
         '-' : lambda x,y: x - y,
@@ -14,10 +14,10 @@ def calculate(num1, num2, op):
     # Performing the operations based on operator
     if op == '+' :
         result = (ops['+'](num1, num2))
-
+        
     elif op == '-':
         result = (ops['-'](num1, num2))
-
+        
     elif op == '*':
         result = (ops['*'](num1, num2))
 
