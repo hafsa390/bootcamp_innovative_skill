@@ -1,1 +1,1 @@
-This repo contains the answer of the bootcamp questions
+This repo contains the answer of the bootcamp entrance exam questions
